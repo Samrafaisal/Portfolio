@@ -1,0 +1,47 @@
+/* Add this to the top of the CSS styles */
+@media only screen and (max-width: 768px) {
+  /* Adjust font sizes and layout for smaller screens */
+  .containerStyle {
+    flex-direction: column;
+  }
+  .leftColumnStyle, .rightColumnStyle {
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+  }
+  .profileInfoStyle {
+    margin-bottom: 10px;
+  }
+  .skillBarContainerStyle {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .headingStyle {
+    font-size: 24px;
+  }
+  .aboutMeTextStyle {
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .containerStyle {
+    padding: 10px;
+  }
+  .leftColumnStyle, .rightColumnStyle {
+    padding: 5px;
+  }
+  .profileInfoStyle {
+    margin-bottom: 5px;
+  }
+  .skillBarContainerStyle {
+    margin-bottom: 5px;
+  }
+  .headingStyle {
+    font-size: 18px;
+  }
+  .aboutMeTextStyle {
+    line-height: 1.2;
+  }
+}
